@@ -8,6 +8,8 @@
 **Objective:**  
 This research proposes a novel framework for mental health support chatbots that integrates sentiment and depression analysis. The system dynamically adjusts prompts based on users' emotional state, improving empathy, contextual awareness, and ethical response generation.
 
+Mode details go to [project README.md](research_promptsense_README.md)
+
 ---
 
 ## 02. Deep Learning Projects
@@ -28,6 +30,8 @@ Implemented an encoder-decoder architecture:
 - **Decoder:** RNN-based language model
 
 Objective: Automatically generate natural language captions from input images, combining vision and language understanding.
+
+Mode details go to [project README.md](dl_image_cap_README.md)
 
 ---
 
