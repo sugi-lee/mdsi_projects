@@ -1,7 +1,7 @@
 
-# 📘 MDSI Academy Project Portfolio
+# MDSI Academy Project Portfolio
 
-## 🧠 Research Paper
+## Research Paper
 
 ### **PromptSense: Sentiment-Aware Mental Health Chatbot with Purpose-Oriented Prompting**
 
@@ -10,9 +10,9 @@ This research proposes a novel framework for mental health support chatbots that
 
 ---
 
-## 🤖 Deep Learning Projects
+## Deep Learning Projects
 
-### 🍱 **Food-101 Classification**  
+### **Food-101 Classification**  
 Trained three Convolutional Neural Networks on the Food-101 dataset:  
 - **GoogleNet**  
 - **MobileNet**  
@@ -20,7 +20,7 @@ Trained three Convolutional Neural Networks on the Food-101 dataset:
 
 Objective: Compare performance across architectures and evaluate top-1 accuracy in multi-class food image classification.
 
-### 🖼️ **Image Captioning**  
+### **Image Captioning**  
 Implemented an encoder-decoder architecture:
 - **Encoder:** CNN using ResNet
 - **Decoder:** RNN-based language model
@@ -29,7 +29,7 @@ Objective: Automatically generate natural language captions from input images, c
 
 ---
 
-## 💬 Natural Language Processing (NLP)
+## Natural Language Processing (NLP)
 
 _Work in progress._  
 Includes tasks involving:
@@ -40,7 +40,7 @@ Includes tasks involving:
 
 ---
 
-## 📊 Machine Learning
+## Machine Learning
 
 _Work in progress._  
 Projects span:
@@ -50,7 +50,7 @@ Projects span:
 
 ---
 
-## 🏗️ Big Data
+## Big Data
 
 _Work in progress._  
 Exploring:
@@ -60,7 +60,7 @@ Exploring:
 
 ---
 
-## 📈 Data Visualisation
+## Data Visualisation
 
 _Work in progress._  
 Tools and libraries:
@@ -69,5 +69,4 @@ Tools and libraries:
 
 ---
 
-## 📂 Repository Structure (Example)
 
