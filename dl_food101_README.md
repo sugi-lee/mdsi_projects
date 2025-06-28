@@ -20,4 +20,4 @@ The training pipeline includes data augmentation, normalization, model selection
 Each experiment involves tuning architectures and hyperparameters, with performance validated through robust evaluation. The ultimate goal is to balance **accuracy and generalization** for strong performance on unseen data.
 
 
-![Food Image Sample](./images/google_net_pre.jpg)
+![Food Image Sample](./images/google_net_pre.png)
