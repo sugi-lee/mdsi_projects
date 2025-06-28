@@ -20,7 +20,7 @@ Trained three Convolutional Neural Networks on the Food-101 dataset:
 
 Objective: Compare performance across architectures and evaluate top-1 accuracy in multi-class food image classification.
 
-Mode details go to [project README.md] (dl_food101_README.md)
+Mode details go to [project README.md](dl_food101_README.md)
 
 ### **Image Captioning**  
 Implemented an encoder-decoder architecture:
