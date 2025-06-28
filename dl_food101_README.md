@@ -18,3 +18,6 @@ The training pipeline includes data augmentation, normalization, model selection
 2. **Fine-tune** the best-performing model based on initial experiments.
 
 Each experiment involves tuning architectures and hyperparameters, with performance validated through robust evaluation. The ultimate goal is to balance **accuracy and generalization** for strong performance on unseen data.
+
+
+![Food Image Sample](./images/google_net_pre.jpg)
