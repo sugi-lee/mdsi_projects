@@ -19,5 +19,21 @@ The training pipeline includes data augmentation, normalization, model selection
 
 Each experiment involves tuning architectures and hyperparameters, with performance validated through robust evaluation. The ultimate goal is to balance **accuracy and generalization** for strong performance on unseen data.
 
+## Dataset
+
+This analysis uses a dataset from Data Vision containing 101 food categories, with 101,000 images total. Each category includes:
+
+1. 250 manually reviewed test images
+2. 750 training images (uncleaned, with some noise like intense colors or mislabeled data).
+All images are resized to a maximum side length of 512 pixels.
+
+### Data Preparation
+
+Dataset is undergone data augmentation techniques by generating new variations of images to improve overfitting and improve generalisation.
+
+| Transformation    | Explanation | Configuration |
+|-------------------|-------------|---------------|
+| RandomResizedCrop |
+
 
 ![Food Image Sample](./images/googlenet_pre.png)
