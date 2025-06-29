@@ -33,7 +33,7 @@ Dataset is undergone data augmentation techniques by generating new variations o
 
 | Transformation    | Explanation | Configuration |
 |-------------------|-------------|---------------|
-| RandomResizedCrop |
+| RandomResizedCrop |Randomly resizing and cropping of the image | Resize to 224 |
 
 
 ![Food Image Sample](./images/googlenet_pre.png)
