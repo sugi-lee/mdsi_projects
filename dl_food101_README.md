@@ -1,4 +1,7 @@
 
+Woking in progress.....
+
+
 ## Introduction
 
 This report outlines the implementation of pre-trained Convolutional Neural Networks (CNNs) to address multi-class image classification challenges. It covers model architecture, preprocessing techniques, activation functions, hyperparameter selection, training process, and evaluation metrics, demonstrating CNN effectiveness in image recognition.
