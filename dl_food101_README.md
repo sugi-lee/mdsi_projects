@@ -31,9 +31,24 @@ All images are resized to a maximum side length of 512 pixels.
 
 Dataset is undergone data augmentation techniques by generating new variations of images to improve overfitting and improve generalisation.
 
+Followings are data augmentation used on the training datasets:
+
 | Transformation    | Explanation | Configuration |
 |-------------------|-------------|---------------|
-| RandomResizedCrop |
+|RandomResizedCrop |Randomly resizing and cropping of the image | Resize to 224, scaling between 0.08 to 1.00, ratio between 3/4 and 4/3 |
+|RandomHorizontalFlip|Randomly flipping the image horizontally |Flip 50% of the time |
+|RandomRotation|Randomly rotate image |Rotate image +/- 10 degrees|
+|ColorJitter|Apply color modification |Brightness = 0.2, Contrast = 0.2, Saturation = 0.2, Hue = 0.1|
 
+In contrast to the training dataset, the validation and testing datasets should provide a more stable and consistent view of each image. As such, we only implement two type of transformations:
+
+| Transformation    | Explanation | Configuration |
+|-------------------|-------------|---------------|
+|Resize|Resize to fixed size and keeping aspect ratio |Resize to 256 |
+|CenterCrop|Crop the centre of images| Crop to 224x224|
+
+### Data Normalisation
+
+Since pre-trained models were trained with ImageNet normalisation, we will follow to the same procedure. The ImageNet normalisation uses a mean of [0.485, 0.456, 0.406] and a standard deviation of [0.229, 0.224, 0.225] for the respective channels (R, G, B)
 
 ![Food Image Sample](./images/googlenet_pre.png)
