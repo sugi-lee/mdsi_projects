@@ -22,8 +22,6 @@ Trained three Convolutional Neural Networks on the Food-101 dataset:
 
 Objective: Compare performance across architectures and evaluate top-1 accuracy in multi-class food image classification.
 
-[Mode details go to the project README.md](dl_food101_README.md)
-
 ### **Image Captioning**  
 Implemented an encoder-decoder architecture:
 - **Encoder:** CNN using ResNet
@@ -31,18 +29,13 @@ Implemented an encoder-decoder architecture:
 
 Objective: Automatically generate natural language captions from input images, combining vision and language understanding.
 
-[Mode details go to the project README.md](dl_image_cap_README.md)
-
 ---
 
 ## 03. Natural Language Processing (NLP)
 
 _Work in progress._  
 Includes tasks involving:
-- Sentiment classification  
-- Text summarization  
-- Named entity recognition  
-- Prompt engineering for chatbots  
+- Supervised Fine Tuning LLM using Unsloth framework
 
 ---
 
@@ -50,9 +43,8 @@ Includes tasks involving:
 
 _Work in progress._  
 Projects span:
-- Supervised learning (classification/regression)
-- Unsupervised learning (clustering, anomaly detection)
-- Model evaluation and selection
+- Flight Fare Prediction application using a Neural Network, built with Streamlit and deployed via Google Cloud Run
+- Time Series Retail Price Predictive and Forecasting application using a XGBoost and Prophet
 
 ---
 
@@ -70,8 +62,8 @@ Exploring:
 
 _Work in progress._  
 Tools and libraries:
-- **Matplotlib**, **Seaborn**, **Plotly**, **Altair**
-- Interactive dashboards using **Streamlit** and **Tableau**
+- **Matplotlib**, **Seaborn**
+- Interactive dashboards using **Tableau**
 
 ---
 
